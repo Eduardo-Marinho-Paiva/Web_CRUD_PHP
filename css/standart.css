@@ -1,0 +1,116 @@
+/* Estilizando o corpo da página */
+body {
+    background-color: #f0f0f0; /* Cor de fundo do body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilizando o container do form */
+form.container {
+    background-color: #fff; /* Cor de fundo do form */
+    padding: 30px;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilizando os grupos de inputs */
+.input-group {
+    margin-bottom: 20px;
+}
+
+/* Estilizando cada linha de input */
+.input {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+/* Estilizando o prefixo dentro de cada input */
+.input-prefix {
+    color: #4CAF50; /* Cor para o prefixo */
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilizando o input */
+.input input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Estilizando o foco no input */
+.input input:focus {
+    border-color: #4CAF50; /* Cor da borda ao focar */
+    outline: none;
+}
+
+.button-group{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+/* Estilizando o botão de envio */
+.button input[type="submit"] {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+/* Efeito de hover no botão */
+.button input[type="submit"]:hover {
+    background-color: #45a049; /* Cor do botão ao passar o mouse */
+}
+
+.button a{
+    background-color: #da7c11; /* Cor de fundo do botão */
+    text-decoration: none;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.button a:hover {
+    background-color: #d27103; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilizando os links */
+.link a {
+    margin-top: 5px;
+    color: #007bff; /* Cor do link */
+    text-decoration: none;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+.icon img{
+    width: 64px;
+    height: 64px;
+}

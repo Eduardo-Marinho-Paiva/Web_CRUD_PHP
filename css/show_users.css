@@ -1,0 +1,92 @@
+
+/* Estilos gerais para o body e navbar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #007bff;
+}
+
+/* Estilo para a tabela */
+.user-table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Cabeçalho da tabela */
+.table-header {
+    background-color: #cd7801;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+/* Linhas da tabela */
+.user-row {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Células da tabela */
+.user-name, .user-phone, .user-email {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo dos links (edição e exclusão) */
+.user-edit, .user-delete {
+    text-align: center;
+    padding: 10px;
+}
+
+.user-edit a, .user-delete a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 20px;
+}
+
+.user-edit a:hover, .user-delete a:hover {
+    color: #ff4500;
+}
+
+/* Estilo de hover para as linhas da tabela */
+.user-row:hover {
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,50 @@
+/* Estilizando o body */
+        body {
+            background-color: #f4f4f4; /* Fundo branco acinzentado */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        /* Estilizando a imagem */
+        .image-container img {
+            width: 60%; /* Imagem grande, ajustável conforme necessidade */
+            max-width: 800px; /* Limita o tamanho máximo da imagem */
+            margin-bottom: 20px;
+        }
+
+        /* Estilizando o texto */
+        .message {
+            font-size: 32px;
+            color: #333;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        /* Estilizando o botão de voltar */
+        .back-button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Efeito de hover no botão */
+        .back-button:hover {
+            background-color: #45a049;
+        }
+
+        /* Estilo do link do botão */
+        .back-button:focus {
+            outline: none;
+        }
